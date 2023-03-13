@@ -2,7 +2,7 @@
 
 | If you are intested in recieving github updates join the community on **[Discord](https://discord.gg/tebex)**! |
 
-
+QBCORE/SHARED/ITEMS.LUA
 
 ```lua
 ["mush_1"]  = {
