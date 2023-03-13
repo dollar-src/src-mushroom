@@ -78,3 +78,13 @@ QBCORE/SHARED/ITEMS.LUA
 	["description"] = ""
 },
 ```
+mz-skills/config.lua
+```lua
+    ["???"] = {
+        ["Current"] = 0,
+        ["RemoveAmount"] = 0,
+        ["Stat"] = "Mushroom",
+        ['icon'] = 'fas fa-rainbow', 
+        
+    }, 
+```
