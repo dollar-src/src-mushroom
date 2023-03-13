@@ -96,9 +96,6 @@ CreateThread(function()
 	end
 end)
 
-RegisterCommand('commandName', function (source, args)
-	exports["mz-skills"]:UpdateSkill('???', args[1])
-end)
 
 AddEventHandler('onResourceStop', function(resource)
 	if resource == GetCurrentResourceName() then
@@ -422,8 +419,4 @@ RegisterNetEvent('heal-src', function()
 end)
 RegisterNetEvent('arm-src', function()
 	exports['ps-buffs']:AddArmorBuff(30000, 10)
-end)
-
-RegisterNetEvent('acid-src', function()
-	-- exports["qb-smallresources"]:DoAcid(240000)
 end)
